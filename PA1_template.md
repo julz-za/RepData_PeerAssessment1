@@ -103,7 +103,7 @@ The mean is 1.0766 &times; 10<sup>4</sup> and the median is 10765.
 #### 2.1 Make a time series plot (i.e. type = "l") of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all days (y-axis)
 
 ```r
-plot(mean_interval$interval, mean_interval$steps, type = "l")
+plot(mean_interval$interval, mean_interval$steps, type = "l", xlab="5-minute interval", ylab="average number of steps taken")
 ```
 
 ![plot of chunk timeseries1](figure/timeseries1.png) 
